@@ -22,10 +22,10 @@ console.log("Loop stopped!");
 
 //For Loop
 
-let text ="";
+let text =0;
 
-for (let i = 0; i < 5; i++) {
-  text += "The number is " + i + "\n";
+for (let i = 0;  i < 5; i++) {
+  text +=  i;
 }
 
 console.log(text);
